@@ -1,6 +1,6 @@
 ## Maunual de instrucciones para cambios de equipos en el servidor
 
-1. Primero ejecutaremos el script backup.sh, el cual guardará una copia en la carpeta ../backups, podremos distinguirla por fecha de creación haciendo un ls -l.
+1. Primero ejecutaremos el script backup.sh, el cual guardará una copia en la carpeta /etc/dhcp/backups, podremos distinguirla por fecha de creación haciendo un ls -l.
 2. Tras haber hecho la cópia, podemos proceder a hacer cambios en el documento original dhcpd.*.conf.
 3. En caso de haber errores o que el cambio de IP / MAC address sea incorrecto, ejecutamos el script compare.sh SIN SUDO y nos abrira Meld con ambos documentos, uno a cada lado, resaltando los cambios.
 
