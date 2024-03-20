@@ -1,3 +1,7 @@
+## Motivación
+
+Estas son varias herramientas que he ido desarrollando a medida que he encontrado alguna dificultad con la gestión de servidores DHCP.
+
 ## Maunual de instrucciones para cambios de equipos en el servidor
 
 1. Primero ejecutaremos el script backup.sh, el cual guardará una copia en la carpeta /etc/dhcp/backups, podremos distinguirla por fecha de creación haciendo un ls -l.
