@@ -10,9 +10,10 @@ Estas son varias herramientas que he ido desarrollando a medida que he encontrad
 2. Ejecución del script de baja_MAC.sh <pcname> para eliminar una entrada de host.
 
 ### Forma de uso en una situación real sería la siguiente:
-
-root@servidor:~$./alta_MAC.sh pcX XX:XX:XX:XX:XX:XX // Creación de entrada
-root@servidor:~$./baja_MAC.sh pcX // Eliminación de entrada
+<pre lan="console">
+root@servidor:~$ ./alta_MAC.sh pcX XX:XX:XX:XX:XX:XX // Creación de entrada
+root@servidor:~$ ./baja_MAC.sh pcX // Eliminación de entrada
+</pre>
 
 ## Herramientas de Backup y Comparsion para ver los cambios de forma gráfica
 
